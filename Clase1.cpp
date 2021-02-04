@@ -5,7 +5,7 @@ int main(){
 	
 	//For y while loop
 	
-	int a = 10;
+	int a = 11;
 	
 	//For loop
 	for(int i= 1; i <= a; i++){
