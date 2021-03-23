@@ -6,7 +6,7 @@ int main(){
 	FILE *fs;
 	int vector[100];
 	
-	//1. Arbir archivo
+	//1. Abrir archivo
 	fs = fopen("./muestravector.txt", "w");
 	
 	if(fs == NULL){
@@ -15,7 +15,7 @@ int main(){
 	}
 	
 	fprintf(fs, "\n\n\n\n Append \n\n\n\n");
-	//2. Procesar o leer archi
+	//2. Procesar o leer archivo
 	for(int i = 0; i < 100; i++){
 		vector[i] = rand();
 	}
